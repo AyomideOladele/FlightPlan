@@ -56,7 +56,6 @@
                     android:text="Flight No. 296"
                     android:textAlignment="center"
                     android:textColor="#ffffff"
-
                     app:fontFamily="@font/poppins_italic" />
             </LinearLayout>
         </net.skyscanner.backpack.card.BpkCardView>
@@ -97,37 +96,23 @@
                     android:background="?android:attr/listDivider"
                     android:backgroundTint="@color/bpkWhite" />
 
-                <LinearLayout
+                <net.skyscanner.backpack.text.BpkText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <net.skyscanner.backpack.text.BpkText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:paddingTop="10dp"
-                        android:style="@style/bpkTextHeading4"
-                        android:text="KJFK Airport"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff"
-                        app:fontFamily="@font/poppins_italic" />
-                </LinearLayout>
-
-                <LinearLayout
+                    android:paddingTop="10dp"
+                    android:style="@style/bpkTextHeading4"
+                    android:text="KJFK Airport"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    app:fontFamily="@font/poppins_italic" />
+                <net.skyscanner.backpack.text.BpkText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <net.skyscanner.backpack.text.BpkText
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:style="@style/bpkTextHeading4"
-                        android:text="Departing at 18:00"
-                        android:textAlignment="center"
-                        android:textColor="#ffffff"
-                        app:fontFamily="@font/poppins_italic" />
-                </LinearLayout>
-
+                    android:style="@style/bpkTextHeading4"
+                    android:text="Departing at 18:00"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    app:fontFamily="@font/poppins_italic" />
             </LinearLayout>
 
 
